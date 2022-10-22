@@ -1,19 +1,22 @@
 # Credit-Card-Fraud-Detection
 ### Overview
-Credit card fraud is the most common type of identity theft. With an estimated 1.5 billion credit cards in the U.S. alone, it’s no surprise that millions of people fall victim every year.
+As far as identity theft goes, credit card fraud is the most prevalent. It's hardly surprising that millions of people become victims each year given that there are an estimated 1.5 billion credit cards in the United States alone. $24.26 Billion was lost in 2018 due to payment card fraud worldwide. 
 
-The most effective way to protect yourself from credit card fraud is by taking preventative measures wherever possible. With the help of technological advancement, data analytic tools and machine learning, it is possible to develop models that can predict credit card frauds with high accuracy and help to reduce the occurrence of this event. Machine learning models can recognise unusual credit card transactions and fraud. The first and foremost step involves collecting and sorting raw data, which is then used to train the model to predict the probability of fraud[2]. The solutions offered by machine learning for credit card fraudulent detection involve:
-Classifying whether credit card transactions are authentic or fraudulent using algorithms such as logistic regression, random forests, support vector machines (SVMs), deep neural networks along with autoencoders, long short-term memory (LSTM) networks, and convolutional neural networks (CNNs)
-Predicting whether it is the cardholders or the fraudsters using the credit cards through credit card profiling
-Using outlier detection methods to identify considerably different transactions (or 'outliers') from regular credit cards transactions to detect credit card fraud.
-The benefits of using machine learning for credit card fraud detection
-Machine learning (ML) models are much better than conventional fraud detection models. They can recognise thousands of patterns from large datasets. ML offers an insight into how users behave by understanding their app usage, payments, and transaction methods. Some of the benefits of fraud detection using ML are as follows:
+The best approach to defend yourself against credit card fraud is to take precautions whenever possible. Technology innovation, data analytics tools, and machine learning make it feasible to create models that can accurately forecast credit card frauds and contribute to its reduction. Machine learning algorithms can identify fraud and atypical credit card transactions.
 
-Faster detection
-A machine learning model can quickly identify any drifts from regular transactions and user behaviours in real time. By recognising anomalies, such as a sudden increase in transactional amount or location change, ML algorithms can minimise the risk of fraud and ensure more secure transactions.
+Using algorithms like logistic regression, random forests, support vector machines (SVMs), deep neural networks combined with autoencoders, long short-term memory (LSTM) networks, and convolutional neural networks (CNNs), it is possible to classify credit card transactions as genuine or fraudulent. 
+Another way is through credit card profiling where it can be determined if someone is using a credit card legitimately or fraudulently
+Also, by using techniques for outlier identification to spot transactions that are noticeably different from typical credit card transactions (or "outliers") can help uncover credit card fraud.
 
-Higher accuracy
-Conventional fraud detection techniques cause errors at the payment gateways that sometimes result in genuine customers being blocked. With sufficient training data and insights, ML models can achieve higher accuracy and precision, reducing these errors along with the time required to be spent on performing manual analysis.
+#### What are the benefits of using machine learning for credit card fraud detection
+- Performance
+One major advantage of applying machine learning to the detection of credit card fraud is that ML models outperform traditional fraud detection models by a wide margin. From vast databases, they can recognize thousands of patterns. By studying consumers' app usage, payments, and transaction methods, ML provides insight into how they behave. 
 
-Improved efficiency with larger data
-Once an algorithm picks up different transactional patterns and behaviours, it can efficiently work with large datasets to separate authentic payments from fraudulent ones. The models can analyse huge amounts of data in seconds while offering real-time insights for improved decision-making capabilities.
+- A quicker detection
+A machine learning model is able to swiftly spot any deviations from normal user behavior and transactional patterns. ML algorithms can reduce the risk of fraud and enable more secure transactions by identifying anomalies, such as a sudden spike in transactional amount or geographical change.
+
+- Greater precision
+Traditional fraud detection methods result in errors at the payment gateways, which may lead to the blocking of real clients. The accuracy and precision of ML models can be increased with enough training data and insights, which also cuts down on errors and the time needed for manual analysis.
+
+- Increased effectiveness with more data
+An algorithm can effectively work with enormous datasets to distinguish between legitimate payments and fraudulent ones after it learns various transactional patterns and behaviors. The models can quickly analyze enormous volumes of data and provide real-time insights for better decision-making.
