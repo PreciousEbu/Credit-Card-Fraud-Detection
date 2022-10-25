@@ -4,9 +4,10 @@ As far as identity theft goes, credit card fraud is the most prevalent. It's har
 
 The best approach to defend yourself against credit card fraud is to take precautions whenever possible. Technology innovation, data analytics tools, and machine learning make it feasible to create models that can accurately forecast credit card frauds and contribute to its reduction. Machine learning algorithms can identify fraud and atypical credit card transactions.
 
-Using algorithms like logistic regression, random forests, support vector machines (SVMs), deep neural networks combined with autoencoders, long short-term memory (LSTM) networks, and convolutional neural networks (CNNs), it is possible to classify credit card transactions as genuine or fraudulent. 
+### Problem and Approach
+The type of problem this prediction solves is a classification problem. Using algorithms like logistic regression, random forests, support vector machines (SVMs), deep neural networks combined with autoencoders, long short-term memory (LSTM) networks, and convolutional neural networks (CNNs), it is possible to classify credit card transactions as genuine or fraudulent. 
 Another way is through credit card profiling where it can be determined if someone is using a credit card legitimately or fraudulently
-Also, by using techniques for outlier identification to spot transactions that are noticeably different from typical credit card transactions (or "outliers") can help uncover credit card fraud.
+Also, by using techniques for outlier identification to spot transactions that are noticeably different from typical credit card transactions (or "outliers") can help uncover credit card fraud. In this project, the approach used was machine learning algorithms.
 
 #### What are the benefits of using machine learning for credit card fraud detection
 - ##### Performance
@@ -32,4 +33,28 @@ An algorithm can effectively work with enormous datasets to distinguish between 
 - correlation matrix and heat map showed that  a strong positive correlation exists between the features 'V21' and 'V22'. All other variables are weakly correlated with each other either positively or negatively.
 - Without feature selection and balancing of the imbalanced class in the response variable, the logistic regression algorithm did not perform well as it was overfit and was only able to predict the 'no fraud' which was the predominant class.
 - Using featurewiz for feature selection, 16 out of 30 variables were selected.
-- 
+- Feature scaling was also done for 'Time' and 'Amount' which were the features that didn't undergo PCA.
+
+### Class balancing
+- A combined random oversampling and undersampling techinque which is the SMOTE ENN was used to balance the under represented class "Fraud". A scatterplot visualized the SMOTE distribution.
+ 
+### Machine Learning and Model Evaluation
+A number was machine learning models were used to train the data set and validate the test set. The evaluation metrics that were used include:
+-  Accuracy score
+-  ROC Curve
+-  F1 Score
+-  Precision
+-  Recall
+
+
+The algorithms and their model performance are:
+-  Logistic Regression             0.54
+-  Decision Tree Classifier        0.99
+-  SVM                             0.55
+-  Guassian Naive Bayes            0.60
+-  Random Forest Classifier        0.98
+
+
+### Cross Validation
+ To control overfitting, repeated stratified kfold cross validation was used to evaluate each on the models based on all the metrics listed
+
