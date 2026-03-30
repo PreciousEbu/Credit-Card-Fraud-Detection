@@ -102,16 +102,11 @@ Each model was evaluated using:
 * **Logistic Regression achieved the highest ROC-AUC**, indicating strong ability to separate fraudulent and non-fraudulent transactions.
 * However, **Random Forest significantly outperformed in F1-score**, suggesting better real-world classification performance at the default threshold.
 
-> ⚠️ This highlights a critical nuance:
-> **The best model depends on whether you prioritize ranking (ROC-AUC) or classification performance (F1/Recall).**
-
 ---
 
 ## 🧪 Threshold Optimization
 
 Rather than relying on a fixed threshold (0.5), the final model includes **threshold tuning** to optimize F1-score and balance precision-recall trade-offs.
-
-This step ensures the model aligns with **real-world business constraints**.
 
 ---
 
