@@ -224,18 +224,6 @@ python main.py
 
 ---
 
-## ⭐ Key Takeaway
-
-This project demonstrates how to move beyond basic modeling into **production-aware machine learning**, combining:
-
-* Proper evaluation for imbalanced data
-* Data leakage prevention
-* Model explainability
-* Deployment readiness
-* Business-aligned decision making
-
----
-
 ## 📬 Contact
 
 Feel free to reach out for collaboration or discussion.
